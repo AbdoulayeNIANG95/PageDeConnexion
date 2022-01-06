@@ -24,7 +24,7 @@ body{
     label:hover{
     color: green;
     }
-    #submit{
+    .submit{
     cursor: pointer;
     display: inline;
     

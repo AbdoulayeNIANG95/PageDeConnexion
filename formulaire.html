@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page de Connexion</title>
     <link rel="stylesheet" type="text/css" href="formulaire.css">
+    <script type="text/javaScript" src="formulaire.js"> </script>
 </head>
 
 <body>
@@ -17,8 +18,12 @@
         <input type="email" name="">
         <label>Password</label>
         <input type="Password" name="">
-        <button type="submit" id="button" onclick="alert('Connexion réussie !')"> Se connecter</button>
-        <button type="submit" id="button"> S'enregistrer</button>
+
+        <!-- <input type="submit" value="Se Connecter" class="submit" onclick="alert('Connexion réussie !')" > -->
+        <input type="submit" value="Se Connecter" class="submit" onclick="message()" >
+        <input type="submit" value="S'enrégistrer" class="submit" onclick="message()" >
+        <br/><br/>
+
         </form>
         </div>
     
